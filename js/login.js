@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
     if (email === "mail@example.com" && password === "Password") {
         // Guardar la sesión y redirigir al usuario a la página principal
         localStorage.setItem("session", email);
-        window.location.href = "./home.html";
+        window.location.href = "./index.html";
     } else {
         // Mostrar un mensaje de error si las credenciales son incorrectas
         Toastify({

@@ -25,7 +25,7 @@ if (!foundProd) {
             alt="image ${foundProd.title}"
             style="object-fit: cover; width: 100%; height: 150px;"
         />
-        <div class="card-body d-flex flex-column">
+        <div class="card-body d-flex flex-column p-5" style="padding: 10px">
           <p class="card-text">Title: ${foundProd.title}</p>
           <p class="card-text">Price: ${foundProd.price}</p>
           <p class="card-text">Stock: ${foundProd.stock}</p>

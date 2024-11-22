@@ -83,3 +83,11 @@ header{
 .borderless-list .list-group-item {
   border: none;
 }
+
+.onlyCategorias a {
+  color: white !important;
+}
+
+card {
+  padding: 5px;
+}

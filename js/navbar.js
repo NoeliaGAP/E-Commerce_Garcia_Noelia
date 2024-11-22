@@ -21,7 +21,7 @@ const navbar = `<div class="d-flex align-items-center ms-auto" style="font-size:
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border-bottom: 1px solid #1A97AF; background-color: #2fe0d2">
     <div class="container-fluid">
-        <a class="navbar-brand" href="./home.html">
+        <a class="navbar-brand" href="./index.html">
             <img src="./assets/logo.svg" class="img-fluid" style="max-width: 150px; max-height: 50px;" alt="Logo">
         </a>
         <div class="d-flex align-items-center ms-auto">
@@ -69,7 +69,7 @@ const navbar = `<div class="d-flex align-items-center ms-auto" style="font-size:
     </div>
 </nav>
 
-<div class="onlyCategorias d-flex justify-content-evenly .text-white " style="background-color: #169aa5; padding: 10px 0;">
+<div class="onlyCategorias d-flex justify-content-evenly text-white " style="background-color: #169aa5; padding: 10px 0; color: #FFFFFF;">
 </div>
 `
 const page = location.pathname

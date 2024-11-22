@@ -38,15 +38,15 @@ function deleteFromCart(id) {
 
 function confirmRemoveToCart(id) {
   Swal.fire({
-    title: "¿Quieres eliminar este producto?",
+    title: "Do you want to remove this product?",
     showCancelButton: true,
     confirmButtonColor: "#0EE5DF",
     cancelButtonColor: "#FF6969",
-    confirmButtonText: "Sí, eliminalo"
+    confirmButtonText: "Yup, delete it"
   }).then((result) => {
     if (result.isConfirmed) {
       Toastify({
-        text: "Eliminado correctamente",
+        text: "Correctly removed",
         className: "info",
         style: {
           background: "linear-gradient(to right, #036281, #0EE5DF)"
@@ -60,7 +60,7 @@ function confirmRemoveToCart(id) {
 if (cartItems.length === 0) {
   document.querySelector(".cartProds").innerHTML = `
         <div class="alert alert-warning text-center" role="alert" style="background: #FF6969; color: #FFFFFF; border: none">
-            No tienes productos en el carrito.
+            You have no products in your cart.
         </div>
     `;
 } else {
