@@ -1,0 +1,85 @@
+@media (min-width: 992px) {
+  .input-icons {
+    width: 300px; 
+  }
+}
+
+header{
+  margin-bottom: 12px;
+}
+
+.input-icons .form-control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+.input-icons .bi-search {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+.bi-cart2 {
+  font-size: 1.5rem; 
+}
+
+.bi-lock {
+  font-size: 1.3rem; 
+}
+.bi-shop {
+  font-size: 1.5rem; 
+}
+
+.c-item {
+  height: 480px;
+}
+.c-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.aniversary {
+  width: 600px;
+}
+
+#carouselExampleIndicators2 {
+  width: 100%;
+}
+
+.section2 {
+  margin: 60px 0 60px 0;
+}
+
+.section3 .c-item {
+  width: 1000px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.section3 {
+  margin: 0 0 60px 0;
+}
+
+.unstyled-button {
+  background: none;
+  border: none;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.cursor:hover{
+  color: rgb(37, 220, 226);
+}
+
+.cart-title {
+  text-decoration: underline;
+  text-underline-offset: 12px;
+  text-decoration-thickness: 4px; 
+}
+
+.borderless-list .list-group-item {
+  border: none;
+}
