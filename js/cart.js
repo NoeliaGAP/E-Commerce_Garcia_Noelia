@@ -123,7 +123,7 @@ function updateCardDetail() {
                   <li class="list-group-item list-group-item-action border-0">
                     <img
                       class="w-100 h-100 rounded tarjetaInput"
-                      src="./assets/masterCard.png"
+                      src="./assets/mastercard.svg"
                       alt="MasterCard"
                       data-tarjeta="MasterCard"
                     />
@@ -131,7 +131,7 @@ function updateCardDetail() {
                   <li class="list-group-item list-group-item-action border-0">
                     <img
                       class="w-100 h-100 rounded tarjetaInput"
-                      src="./assets/visa.png"
+                      src="./assets/visa.svg"
                       alt="Visa"
                       data-tarjeta="Visa"
                     />
@@ -139,9 +139,9 @@ function updateCardDetail() {
                   <li class="list-group-item list-group-item-action border-0">
                     <img
                       class="w-100 h-100 rounded tarjetaInput"
-                      src="./assets/mercadoPago.png"
-                      alt="MercadoPago"
-                      data-tarjeta="MercadoPago"
+                      src="./assets/american-express.svg"
+                      alt="American Express"
+                      data-tarjeta="AmericanExpress"
                     />
                   </li>
                 </ul>
