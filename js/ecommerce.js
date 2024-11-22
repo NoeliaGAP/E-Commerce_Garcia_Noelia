@@ -12,11 +12,11 @@ function loadProds(categoria = "") {
         return `
 <div class="card d-flex flex-column align-items-start" style="width: 18rem; border: 1px solid #036281; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
     <img src="${product.img}"
-        class="card-img-top"
+        class="card-img-top ratio ratio-4x3"
         alt="image ${product.title}"
-        style="object-fit: cover; width: 100%; height: 150px; border-bottom: 1px solid #036281;"
+        style="object-fit: contain; border-bottom: 1px solid #036281;"
     />
-    <div class="card-body d-flex flex-column text-nowrap" style="padding: 15px;">
+    <div class="card-body d-flex flex-column" style="padding: 15px;">
         <div class="card-text mb-2" style="font-weight: bold; font-size: 1rem; color: #2fe0d2;">
             Title: ${product.title}
         </div>
@@ -43,11 +43,11 @@ function loadProds(categoria = "") {
         return `
 <div class="card d-flex flex-column align-items-start" style="width: 18rem; border: 1px solid #036281; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
     <img src="${product.img}"
-        class="card-img-top"
+        class="card-img-top ratio ratio-4x3"
         alt="image ${product.title}"
-        style="object-fit: cover; width: 100%; height: 150px; border-bottom: 1px solid #036281;"
+        style="object-fit: contain; border-bottom: 1px solid #036281;"
     />
-    <div class="card-body d-flex flex-column text-nowrap" style="padding: 15px;">
+    <div class="card-body d-flex flex-column" style="padding: 15px;">
         <div class="card-text mb-2" style="font-weight: bold; font-size: 1rem; color: #2fe0d2;">
             Title: ${product.title}
         </div>
@@ -88,11 +88,11 @@ boton.addEventListener("click", () => {
     return `
 <div class="card d-flex flex-column align-items-start" style="width: 18rem; border: 1px solid #036281; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
     <img src="${product.img}"
-        class="card-img-top"
+        class="card-img-top ratio ratio-4x3"
         alt="image ${product.title}"
-        style="object-fit: cover; width: 100%; height: 150px; border-bottom: 1px solid #036281;"
+        style="object-fit: contain; border-bottom: 1px solid #036281;"
     />
-    <div class="card-body d-flex flex-column text-nowrap" style="padding: 15px;">
+    <div class="card-body d-flex flex-column" style="padding: 15px;">
         <div class="card-text mb-2" style="font-weight: bold; font-size: 1rem; color: #2fe0d2;">
             Title: ${product.title}
         </div>

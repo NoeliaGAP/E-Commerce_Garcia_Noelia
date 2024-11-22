@@ -12,9 +12,9 @@ function changeTheme() {
   }
 }
 
-const navbar = `<div class="d-flex align-items-center ms-auto" style="font-size: 14px; color: #333;">
-    <p class="mb-0 ms-2" style="font-weight: bold; color: #1A97AF;">Offers</p>
-    <p class="mb-0 ms-auto me-2" style="font-size: 13px; color: #2fe0d2; font-style: italic;">
+const navbar = `<div class="d-flex align-items-center ms-auto" style="font-size: 14px; color: #333; background-color: #169aa5">
+    <p class="mb-0 ms-2" style="font-weight: bold; color: #FFFFFF;">Offers</p>
+    <p class="mb-0 ms-auto me-2" style="font-size: 13px; color: #FFFFFF; font-style: italic;">
         Free Shipping on orders over $65+
     </p>
 </div>

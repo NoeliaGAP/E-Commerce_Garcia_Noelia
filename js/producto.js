@@ -21,12 +21,12 @@ if (!foundProd) {
   let cardHtml = `
       <div class="card d-flex flex-column align-items-center" style="width: 18rem">
         <img src="${foundProd.img}"
-            class="card-img-top"
+            class="card-img-top ratio ratio-4x3"
             alt="image ${foundProd.title}"
-            style="object-fit: cover; width: 100%; height: 150px;"
+            style="object-fit: contain;"
         />
-        <div class="card-body d-flex flex-column p-5" style="padding: 10px">
-          <p class="card-text">Title: ${foundProd.title}</p>
+        <div class="card-body d-flex flex-column" >
+          <h3 class="card-title">Title: ${foundProd.title}</h3>
           <p class="card-text">Price: ${foundProd.price}</p>
           <p class="card-text">Stock: ${foundProd.stock}</p>
           <p class="card-text">Category: ${foundProd.category}</p>
